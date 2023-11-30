@@ -1,0 +1,298 @@
+/* NAVBAR */
+.active{
+    color: red !important;
+}
+
+.nav-item{
+    padding-right: 1.5rem;
+    position: relative;
+}
+.navbar-1{
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1111111;
+    transition: background-color 1s;
+    background-color: transparent;
+}
+.nav-item::before{
+    content: '';
+    position: absolute;
+    top: 1.25rem;
+    left: 13px;
+    width: 0px;
+    height: 2px;
+    background-color: white;
+    transition: width 400ms;
+    transform: translateY(1.125rem);
+}
+.nav-item:hover::before{
+    width: 50%;
+}
+.dropdown-item:hover{
+color: blue;
+}
+.dropdown-item{
+    transition: color 400ms;
+}
+
+/* END NAVBAR  */
+#btnup{
+    right: 50px;
+    bottom: 50px;
+    display: none;
+}
+
+#sec-1 {
+    background-image: url(../img/hero-bg.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.layer-1{
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100%;
+}
+
+.morgan{
+    font-size: 70px;
+}
+.animation-1::after{
+    content: '';
+    animation: typing 10s infinite;
+}
+@keyframes typing{
+0%{ content: '|'}
+5%{ content: 'Free'}
+20%{ content: 'FreeLan'}
+25%{ content: 'Freelancer'}
+30%{ content: '|'}
+35%{ content: 'Photo'}
+40%{ content: 'Photogra'}
+50%{ content: 'Photographer'}
+55%{ content: '|'}
+60%{ content: 'Deve'}
+65%{ content: 'Develop'}
+70%{ content: 'Developer'}
+75%{ content: '|'}
+80%{ content: 'Des'}
+90%{ content: 'Design'}
+100%{ content: 'Desinger'}
+}
+
+@media screen and (max-width:576px){
+    .morgan{
+        font-size: 35px;
+    }
+}
+
+/* END SECTION ONE AND NAVBAR  */
+/* ------------------------------------------------------------------------------------------------------ */
+
+
+/* SECTION-TWO */
+
+.about-sec-2{
+    position: relative;
+}
+.about-sec-2::before{
+    content: '';
+    position: absolute;
+    width: 6rem;
+    height: 3px;
+    background-color: blue;
+    bottom: -10px;
+}
+
+/* END SECTION TWO  */
+/* ------------------------------------------------------------------------------------------------------ */
+
+.icon-1:hover{
+    background-color: rgba(0, 0, 255, 0.486);
+    color: white;
+}
+.icon-1{
+    width:110px;
+    height: 110px;
+    background-color: white;
+    transition: background-color 400ms; 
+    color: black;
+    transition: color 400ms;
+}
+.p-sec-3{
+    position: relative;
+}
+.p-sec-3::before{
+    content: '';
+    position: absolute;
+    width: 3rem;
+    height: 5px;
+    background-color: blue;
+    bottom: -5px;
+}
+
+/* END SECTION TWO  */
+/* ------------------------------------------------------------------------------------------------------ */
+
+#sec-4{
+    background-image: url(../img/post-3.jpg);
+    background-attachment: fixed;
+}
+.layer-2{
+    width: 100%;
+    height: 100%;
+    background-color: #0077ff6c;
+}
+
+.icon-2{
+    width:60px;
+    height: 60px;
+   
+}
+/* END SECTION Three and Four  */
+/* ------------------------------------------------------------------------------------------------------ */
+
+
+.icon-3{
+    width:40px;
+    height: 40px;
+   
+}
+
+
+#sec-5 img{
+    width: 100%;
+}
+.img-sec5:hover{
+    transform: scale(1.1);
+}
+.img-sec5{
+    transition: transform 500ms;
+}
+/* END SECTION Five  */
+/* ------------------------------------------------------------------------------------------------------ */
+
+#sec-6{
+    background-image: url(../img/overlay-bg.jpg);
+    background-attachment: fixed;
+    margin-top: 10px;
+}
+
+.carousel-indicators [data-bs-target] {
+    transform: translateY(32px);
+}
+/* END SECTION Sex  */
+/* ------------------------------------------------------------------------------------------------------ */
+
+#sec-7 img{
+    width: 100%;
+}
+
+.sec7-7 img{
+    width: 100%;
+}
+.sec7-7{
+    width: 50px;
+    height: 50px;
+}
+
+.buttom-7{
+    top: 46%;
+    right: 140px;
+}
+
+@media screen and (max-width:786px){
+    .buttom-7{
+        transform: translateY(-124px);
+        margin-right: -56px;
+       padding-left: 10px;
+    }
+}
+
+
+@media screen and (max-width:576px){
+    .buttom-7{
+        transform: translateY(62px);
+    margin-right: 57px;
+    }
+}
+
+/* END SECTION Seven  */
+/* ------------------------------------------------------------------------------------------------------ */
+.btn-5{
+    transition: all 400ms;
+}
+
+#sec-8{
+    background-image: url(../img/overlay-bg.jpg);
+    background-attachment: fixed;
+    margin-top: 10px;
+}
+
+.p-sec-8{
+    position: relative;
+}
+.p-sec-8::before{
+    content: '';
+    position: absolute;
+    width: 7rem;
+    height: 4px;
+    background-color: blue;
+    bottom: -5px;
+}
+
+.form-control{
+    border-radius: 0px;
+}
+
+.btn-5:hover{
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25);
+}
+
+.icon-8{
+    width: 50px;
+    height: 50px;
+    transition: all 400ms;
+}
+.icon-8:hover{
+    box-shadow: 0 0 0 0.21rem rgba(13,110,253,.25);
+    border-color: #86b7fe;
+    color: white;
+    background-color: #4779c5;
+}
+
+/* START BLOG PAGE  */
+/* ----------------------------------------------------------------------------------------------------- */
+
+
+
+#sec-1-1{
+    background-image: url(../img/overlay-bg.jpg);
+    background-attachment: fixed;
+    height: 70vh;
+    background-position: center center;
+    background-size: cover;
+}
+#sec-1-1 h1{
+    font-size: 50px;
+}
+
+
+.hover-a p:hover{
+    color: blue;
+}
+
+.hover-a p {
+    transition: color 400ms;
+}
+
+#sec-1-2 .form-control{
+    border-radius: 6px;
+}

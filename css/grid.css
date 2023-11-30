@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.test{
+    background-color: blanchedalmond;
+    display: grid;
+    height: 600px;
+    grid-template-columns: repeat(7,1fr) ;
+    grid-template-rows: 50px auto 50px;
+
+}
+
+header{
+    background-color: aqua;
+    grid-column: 1/-1;
+}
+aside{
+    background-color: blue;
+    grid-column: 1/3;
+}
+main{
+    background-color: blueviolet;
+    grid-column: 3/-1;
+}
+footer{
+    background-color: red;
+    grid-column: 1/-1;
+}
